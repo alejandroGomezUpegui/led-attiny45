@@ -2,7 +2,8 @@
 #include <avr/io.h>
 #include <util/delay.h>
 
-
+// int time = 100;
+//int i = 0;
 
 int main(void)
 {
@@ -13,8 +14,6 @@ int main(void)
 		PORTB |= 1 << PINB0;
 	}
 }
-		
-		
 		//PORTB |= 1 << PINB1;
 
 		//for(i = 0; i <= 5; i++)
@@ -23,3 +22,6 @@ int main(void)
 			//_delay_ms(time);
 		//}
 	
+
+
+
